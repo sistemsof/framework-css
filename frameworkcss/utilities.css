@@ -1,0 +1,109 @@
+/************************/
+/* Framework CSS v.1.0 */
+/***********************/
+
+:root {
+  /* Colors Base */
+  --color-primary: #00d1b2;
+  --color-link: #3273dc;
+  --color-info: #3298dc;
+  --color-success: #48c774;
+  --color-warning: #ffdd57;
+  --color-danger: #f14668;
+
+  /* Colors light */
+  --color-light-primary: #ebfffc;
+  --color-light-link: #eef3fc;
+  --color-light-info: #eef6fc;
+  --color-light-success: #effaf3;
+  --color-light-warning: #fffbeb;
+  --color-light-danger: #feecf0;
+
+  /* fonts-size */
+  --font-small: 0.75rem;
+  --font-normal: 1rem;
+  --font-medium: 1.25rem;
+  --font-large: 1.5rem;
+}
+
+/****************/
+/* COMPONENTES */
+/**************/
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: var(--font-normal);
+  color: #333;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--color-primary);
+}
+.btn-link{
+  color: #fff;
+  background-color: var(--color-link);
+}
+.btn-info{
+  color: #fff;
+  background-color: var(--color-info);
+}
+.btn-success{
+  color: #fff;
+  background-color: var(--color-success);
+}
+
+.btn-warning{
+  color: #fff;
+  background-color: var(--color-warning);
+}
+.btn-danger{
+  color: #fff;
+  background-color: var(--color-danger);
+}
+
+/****************/
+/* UTILIDADES */
+/**************/
+.p-2 {
+  padding: 1.1rem;
+}
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* Dispositivos pequeños */
+@media screen and (min-width: 320px) {
+  .sm-p-2 {
+    padding: 1.1rem;
+  }
+
+}
+
+/* Dispositivos medianos */
+@media screen and (min-width: 576px) {
+  .md-p-2 {
+    padding: 1.1rem;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 767px) {
+
+}
+
+
+/* Notebooks */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Dispositivos grandes */
+@media screen and (min-width: 1024px) {
+
+}
